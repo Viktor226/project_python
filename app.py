@@ -39,10 +39,10 @@ st.write("ученик")
 colors_df = pd.DataFrame.from_dict(
     st.session_state.uchenici, orient="index", columns=["Брой"]
 )
-st.bar_chart(uchenici_df)
+st.bar_chart(colours_df)
 
 st.write("оценки")
 grades_df = pd.DataFrame.from_dict(
     st.session_state.grades, orient="index", columns=["Брой"]
 )
-st.bar_chart(grades_df)
+st.bar_chart(sport_df)
