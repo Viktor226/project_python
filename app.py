@@ -45,4 +45,4 @@ st.write("оценки")
 grades_df = pd.DataFrame.from_dict(
     st.session_state.grades, orient="index", columns=["Брой"]
 )
-st.bar_chart(sports_df)
+st.bar_chart(sport_df)
